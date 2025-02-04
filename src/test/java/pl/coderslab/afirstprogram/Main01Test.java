@@ -43,5 +43,10 @@ public class Main01Test {
         Main01.main(null);
         assertEquals(EXPECTED_OUTPUT, outContent.toString());
     }
+
+    @Test
+    public void testGetGreeting() {
+        assertEquals("Hello world", Main01.getGreeting());
+    }
 }
 

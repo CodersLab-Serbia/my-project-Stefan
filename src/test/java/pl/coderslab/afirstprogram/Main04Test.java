@@ -4,7 +4,7 @@ import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.contrib.java.lang.system.SystemOutRule;
-import coderslab.afirstprogram.Main04;
+import pl.coderslab.afirstprogram.Main04;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
