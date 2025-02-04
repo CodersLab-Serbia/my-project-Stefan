@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # my-project
 Stefan
 =======
