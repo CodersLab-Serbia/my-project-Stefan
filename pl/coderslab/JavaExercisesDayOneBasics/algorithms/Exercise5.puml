@@ -1,0 +1,29 @@
+@startuml
+start
+:Initialize max to -∞;
+:Initialize min to +∞;
+:Initialize number;
+
+repeat
+  :Input number;
+  if (number == 0?) then (yes)
+    break
+  else (no)
+    if (number > max?) then (yes)
+      :max = number;
+    else (no)
+      :Do nothing;
+    endif
+
+    if (number < min?) then (yes)
+      :min = number;
+    else (no)
+      :Do nothing;
+    endif
+  endif
+repeat while (true)
+
+:Display max;
+:Display min;
+end
+@enduml
