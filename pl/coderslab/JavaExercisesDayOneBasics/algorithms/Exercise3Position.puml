@@ -1,0 +1,21 @@
+@startuml
+start
+:Initialize i to 0;
+:Initialize positions as empty list;
+
+repeat
+  :Is i < n?;
+  if (yes) then (yes)
+    :Is A[i] == x?;
+    if (yes) then (yes)
+      :Add i to positions;
+    else (no)
+      :Do nothing;
+    endif
+    :Increment i;
+  else (no)
+    :Display positions;
+  endif
+repeat while (yes)
+end
+@enduml

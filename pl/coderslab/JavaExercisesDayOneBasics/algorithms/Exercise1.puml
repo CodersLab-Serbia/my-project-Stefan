@@ -1,0 +1,17 @@
+@startuml
+start
+:Initialize largest to array[0];
+:i = 1;
+repeat
+  :Is i < 10?;
+  if (yes) then (yes)
+    :Is array[i] > largest?;
+    if (yes) then (yes)
+      :Set largest to array[i];
+    endif
+    :Increment i;
+  endif
+repeat while (yes)
+:Display largest;
+end
+@enduml
