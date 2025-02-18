@@ -1,6 +1,6 @@
 
 
-package en.coderslab.homeworks.methods;
+package en.coderslab.homeworks.Methods;
 
 public class Main01 {
     public static void main(String[] args) {
